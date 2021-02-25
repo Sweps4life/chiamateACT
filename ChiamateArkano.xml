@@ -155,32 +155,39 @@
           </Trigger>
           <Trigger Enabled="true" Name="triste" Id="a46b5e0d-9cd6-4fcd-861b-ffbc87cb7ad0" RegularExpression="%%triste">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\MadWorld.wav" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/MadWorld.mp3" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="porco demonio" Id="7e9f7b74-20ef-4c1d-96d4-d757d338f8dc" RegularExpression="porco demonio">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="porco demonio" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
             </Actions>
           </Trigger>
-          <Trigger Enabled="false" Name="pussy nigga" Id="8cc9e981-4d9e-4dd4-93fa-f3086c28d5f2" RegularExpression="pussy nigga">
-            <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="pussy nigga" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
-            </Actions>
-          </Trigger>
           <Trigger Enabled="true" Name="mosconi" Id="2d2f80b0-aaa9-46c6-a985-66d0607f2b8d" RegularExpression="%%mosconi">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\mosconi.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/mosconi.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="porcodioh" Id="792196bb-c600-4b8b-8d51-c15b1b2a9355" RegularExpression="%%porcodio">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\Porcodioh.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/porcodioh.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="pom" Id="99516f3a-f8d7-4d38-bf26-bd3c84c9ee97" RegularExpression="%%pomp">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://raw.githubusercontent.com/Sweps4life/chiamateACT/audio/Audio/pomp.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/pomp.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
                 <Conditions />
               </Action>
@@ -189,18 +196,30 @@
           </Trigger>
           <Trigger Enabled="true" Name="scora" Id="3525d737-a91d-45c8-aa96-cc8db64dc72e" RegularExpression="%%scora">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\scoreggia.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/scoreggia.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="cagato" Id="524abc02-4338-4445-9f7e-cd195a3d9b7f" RegularExpression="%%merda">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\cagato.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/cagato.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="uniporco" Id="1b021909-300a-4528-8b04-38613c1bf700" RegularExpression="%%uniporco">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\uniporco.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" />
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/uniporco.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
         </Triggers>
       </Folder>
