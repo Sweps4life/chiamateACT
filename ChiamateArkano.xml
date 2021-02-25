@@ -157,7 +157,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/MadWorld.mp3" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -171,7 +170,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/mosconi.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -180,7 +178,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/porcodioh.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -189,7 +186,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/pomp.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -198,7 +194,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/scoreggia.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -207,7 +202,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/cagato.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -216,7 +210,6 @@
             <Actions>
               <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/uniporco.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -225,11 +218,9 @@
             <Actions>
               <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/showmust.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -674,447 +665,348 @@
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/SpreadOut.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1500">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5652:Fatebreaker starts using Burnt Strike on Fatebreaker. (Side, Knockback)" Id="8210c4fa-d7fa-46ee-8472-8b49a24ba6ca" RegularExpression="14:5652:Fatebreaker starts using Burnt Strike on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Knockback.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5658:Fatebreaker starts using Bound Of Faith on Fatebreaker. (Stack)" Id="330718fc-96e9-4a00-9b8d-fd7cf3ace652" RegularExpression="14:5658:Fatebreaker starts using Bound Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Stack.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:566B:Fatebreaker starts using Turn Of The Heavens on Fatebreaker. (Orange Safe)" Id="8f8f3189-3021-4d43-be7b-5f5efad82e4b" RegularExpression="14:566B:Fatebreaker starts using Turn Of The Heavens on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/OrangeSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5654:Fatebreaker starts using Burnt Strike on Fatebreaker. (Side, Far)" Id="966b6be3-afab-4841-ac36-ffd9313139d0" RegularExpression="14:5654:Fatebreaker starts using Burnt Strike on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/GoFar.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5663:Fatebreaker starts using Elemental Break on Fatebreaker. (Pairs)" Id="d8ac0715-49fe-4bed-9f7b-5ec97be98dd8" RegularExpression="14:5663:Fatebreaker starts using Elemental Break on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Pairs.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1500">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5676:Fatebreaker starts using Shifting Sky on Fatebreaker. (Intermission - Orange Safespot)" Id="494eed6c-296d-4480-b8a4-ea9d596586f6" RegularExpression="14:5676:Fatebreaker starts using Shifting Sky on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/OrangeSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="14000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5675:Fatebreaker starts using Shifting Sky on Fatebreaker. (Intermission - Blue Safespot)" Id="cb23bf07-0d5b-463f-95c2-19d02aa1e398" RegularExpression="14:5675:Fatebreaker starts using Shifting Sky on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BlueSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="14000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="false" Name="The Fatebreaker's image uses Bound of Faith. [Leave Disabled]" Id="2f5df9e9-e107-4986-8622-53b323f42a73" RegularExpression="The Fatebreaker's image uses Bound of Faith." PeriodRefire="Deny" RefirePeriodExpression="10000">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/MiddleCleaves.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="2f5df9e9-e107-4986-8622-53b323f42a73" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="E11S Wipe Reset" Id="b453ddbb-c610-411e-8247-a7b6a74675b2" RegularExpression="21:(.*):40000010">
                     <Actions>
                       <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="966b6be3-afab-4841-ac36-ffd9313139d0" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="17b53f4c-252a-43ed-b5b1-2cd038616bb7" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="8210c4fa-d7fa-46ee-8472-8b49a24ba6ca" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="d8ac0715-49fe-4bed-9f7b-5ec97be98dd8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="6f5025c5-711b-4647-b2b7-9f85e4837509" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="5" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="ae5d26ad-8d95-4ef7-b1ae-493e72e0c3db" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="6" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="92dd2450-1802-4f34-9cb8-e9f2123c88d8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="8f8f3189-3021-4d43-be7b-5f5efad82e4b" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="4f18c669-144f-49d5-9278-3d77f90f1ae0" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="8" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="cb23bf07-0d5b-463f-95c2-19d02aa1e398" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="10" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="494eed6c-296d-4480-b8a4-ea9d596586f6" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="11" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="d4f0da6e-a74b-4a54-b475-912c1a16a3a8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="12" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="8ba3af04-7995-42d9-bdaa-f1fa0a5af617" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="13" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="ca279d8c-e0a7-425f-ad0d-08f40df4b8af" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="14" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="51776005-920b-4f55-8f6b-d3ad07f313ed" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="15" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="612fe447-c137-43dc-bd55-8d722c4873a6" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="17" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="2f5df9e9-e107-4986-8622-53b323f42a73" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="18" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="4b891a0e-5973-499b-9679-1c2e79f6415e" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="19" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="8a0c0f49-e396-4fec-b636-8bbfcc5e54dc" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="20" VariableName="alicetrig_11preyName" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5668:Fatebreaker starts using Elemental Break on Fatebreaker. (Light Party Tanks Out)" Id="6f5025c5-711b-4647-b2b7-9f85e4837509" RegularExpression="14:5668:Fatebreaker starts using Elemental Break on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/LightPartyTanksOut.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1500">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5656:Fatebreaker starts using Burnt Strike on Fatebreaker. (Side, Bait)" Id="17b53f4c-252a-43ed-b5b1-2cd038616bb7" RegularExpression="14:5656:Fatebreaker starts using Burnt Strike on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BaitAoE.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/MoveNow.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="7000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:565B:Fatebreaker starts using Bound Of Faith on Fatebreaker. (Tankbuster)" Id="f9f2e0d0-170f-40d9-a618-d9aa2715cd77" RegularExpression="14:565B:Fatebreaker starts using Bound Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Tankbuster.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5658:Fatebreaker starts using Bound Of Faith on Fatebreaker. (Holy)" Id="99b26a10-8a3c-4a50-9238-bfa1526895ef" RegularExpression="14:565F:Fatebreaker starts using Bound Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/SoloTether.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="The Fatebreaker's image uses Burnt Strike." Id="8a0c0f49-e396-4fec-b636-8bbfcc5e54dc" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="10000">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Knockback.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="8a0c0f49-e396-4fec-b636-8bbfcc5e54dc" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:566E:Fatebreaker starts using Right Of The Heavens on Fatebreaker. (Blue Safe)" Id="b3bbc4b0-7dc8-48b7-aab5-f03b3f199d45" RegularExpression="14:566E:Fatebreaker starts using Right Of The Heavens on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BlueSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5677:Fatebreaker starts using Sundered Sky on Fatebreaker. (Intermission - Blue Safespot)" Id="d4f0da6e-a74b-4a54-b475-912c1a16a3a8" RegularExpression="14:5677:Fatebreaker starts using Sundered Sky on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/GoTowardsOrange.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="9000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BlueSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:566F:Fatebreaker starts using Right Of The Heavens on Fatebreaker. (Orange Safe)" Id="bb135323-ad44-449a-b97e-017d688a9836" RegularExpression="14:566F:Fatebreaker starts using Right Of The Heavens on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/OrangeSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5678:Fatebreaker starts using Sundered Sky on Fatebreaker. (Intermission - Orange Safespot)" Id="8ba3af04-7995-42d9-bdaa-f1fa0a5af617" RegularExpression="14:5678:Fatebreaker starts using Sundered Sky on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/GoTowardsBlue.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="9000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/OrangeSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:566A:Fatebreaker starts using Turn Of The Heavens on Fatebreaker. (Blue Safe)" Id="4f18c669-144f-49d5-9278-3d77f90f1ae0" RegularExpression="14:566A:Fatebreaker starts using Turn Of The Heavens on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BlueSafespot.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="5000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:5692:Fatebreaker starts using Cycle Of Faith on Fatebreaker. (Lightning)" Id="ca279d8c-e0a7-425f-ad0d-08f40df4b8af" RegularExpression="14:5692:Fatebreaker starts using Cycle Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/LightningMechanics.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/SpreadOut.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="4000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="5" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/GoFar.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="6" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="0b77df8a-9584-44bf-bc54-132dde40e609" TriggerText="call:${var:alicetrig_11preyName}" TriggerZone="Eden's\ Promise:\ Anamorphosis\ \(Savage\)" TriggerForce="parent,active" ActionType="Trigger" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Tankbuster.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:569A:Fatebreaker starts using Cycle Of Faith on Fatebreaker. (Holy)" Id="612fe447-c137-43dc-bd55-8d722c4873a6" RegularExpression="14:569A:Fatebreaker starts using Cycle Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/HolyMechanics.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/LightPartyTanksOut.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="4000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="5" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/BaitAoE.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="6" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/MoveNow.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="0b77df8a-9584-44bf-bc54-132dde40e609" TriggerText="call:${var:alicetrig_11preyName}" TriggerZone="Eden's\ Promise:\ Anamorphosis\ \(Savage\)" TriggerForce="parent,active" ActionType="Trigger" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="8" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/SoloTether.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="14:568A:Fatebreaker starts using Cycle Of Faith on Fatebreaker. (Fire)" Id="51776005-920b-4f55-8f6b-d3ad07f313ed" RegularExpression="14:568A:Fatebreaker starts using Cycle Of Faith on Fatebreaker.">
                     <Actions>
                       <Action OrderNumber="1" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/FireMechanics.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/ClockPositions.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Pairs.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Sides.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="4000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="5" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Knockback.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="6" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="0b77df8a-9584-44bf-bc54-132dde40e609" TriggerText="call:${var:alicetrig_11preyName}" TriggerZone="Eden's\ Promise:\ Anamorphosis\ \(Savage\)" TriggerForce="parent,active" ActionType="Trigger" ExecutionDelayExpression="2000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Stack.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound" ExecutionDelayExpression="1000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="Fatebreaker starts using (Shifting|Sundered) Sky on Fatebreaker." Id="e67fa5a5-6266-4b1e-a965-653c4f9c16c3" RegularExpression="Fatebreaker starts using (Shifting|Sundered) Sky on Fatebreaker." PeriodRefire="Deny" RefirePeriodExpression="5000">
                     <Actions>
                       <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="2f5df9e9-e107-4986-8622-53b323f42a73" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="The Fatebreaker readies Prismatic Deception." Id="5e63f62d-4088-4757-9de1-eaa064a404bb" RegularExpression="The Fatebreaker readies Prismatic Deception." PeriodRefire="Deny" RefirePeriodExpression="5000">
                     <Actions>
                       <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="EnableTrigger" TriggerId="4b891a0e-5973-499b-9679-1c2e79f6415e" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="false" Name="E11S callname [Leave Disabled]" Id="0b77df8a-9584-44bf-bc54-132dde40e609" RegularExpression="call:([\w\']+)">
                     <Actions>
@@ -1122,41 +1014,33 @@
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="$1" ExpressionTypeL="String" ExpressionR="(Alice|Busch|Kushiel|Miyuki|Emi|Complx|Syras|Specint|Aria|Bob|Charm|Hand|Kawaii|Khloe|Maguro|Maria|Mikomii|Naruchi|Shiroyuki|Temi|Verniy|Yuki)" ExpressionTypeR="String" ConditionType="RegexNotMatch" />
                         </Condition>
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" PlaySoundFileExpression="https://alicexiv.github.io/Timeline/Sounds/Names\Allison\$1.mp3" UseTTSTextExpression="Complex" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="$1" ExpressionTypeL="String" ExpressionR="(Alice|Busch|Kushiel|Miyuki|Emi|Complx|Syras|Specint|Aria|Bob|Charm|Hand|Kawaii|Khloe|Maguro|Maria|Mikomii|Naruchi|Shiroyuki|Temi|Verniy|Yuki|Ahti)" ExpressionTypeR="String" ConditionType="RegexMatch" />
                         </Condition>
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="false" Name="Cycle of Faith Prey: 23:[\w]{8}:Fatebreaker:[\w]{8}:([\w\s]+): [Leave Disabled]" Id="4b891a0e-5973-499b-9679-1c2e79f6415e" RegularExpression="23:[\w]{8}:Fatebreaker:[\w]{8}:([\w\s]+):">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetString" VariableName="alicetrig_11preyName" VariableExpression="$1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="[Init] 0:0044:Fatebreaker:I'm the only one fit to protect her..." Id="a0f9899e-2e84-4a57-8298-28d4eefed653" RegularExpression="0:0044:Fatebreaker:I'm the only one fit to protect her...">
                     <Actions>
                       <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="0b77df8a-9584-44bf-bc54-132dde40e609" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="DisableTrigger" TriggerId="4b891a0e-5973-499b-9679-1c2e79f6415e" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -1178,25 +1062,46 @@
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
               </Trigger>
-              <Trigger Enabled="true" Name="14:565[8F]:Bound Of Faith (Holy/stack/buster)" Id="1d97feef-d737-435e-823a-2e07c169bc87" RegularExpression="\[.{14}14:565(?&lt;move&gt;[8FB]):">
+              <Trigger Enabled="true" Name="Bound Of Faith (Holy/stack/buster)" Id="1d97feef-d737-435e-823a-2e07c169bc87" RegularExpression="\[.{14}14:565(?&lt;move&gt;[8FB]):">
                 <Actions>
                   <Action OrderNumber="1" UseTTSTextExpression="solo tether" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="F" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Action>
                   <Action OrderNumber="2" UseTTSTextExpression="stack" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="8" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Action>
                   <Action OrderNumber="3" UseTTSTextExpression="fake buster" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="B" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="Shifting Sky. (Intermission - Blue/orange Safespot)" Id="4ebcabd6-677f-43a9-902d-e2f246db7a0f" RegularExpression="\[.{14}14:567(?&lt;move&gt;[56]):">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="blue safe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="5" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" UseTTSTextExpression="orange safe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${move}" ExpressionTypeL="String" ExpressionR="6" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
