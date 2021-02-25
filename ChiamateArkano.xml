@@ -221,6 +221,16 @@
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
+          <Trigger Enabled="true" Name="ShowMGO" Id="2161ad0f-1d5a-4d88-9749-18a419d6fe60" RegularExpression="%%go.on">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/showmust.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="958375e3-249a-4c23-9cfa-787124062934" Name="98-Mappe" Enabled="true">
