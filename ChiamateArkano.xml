@@ -115,22 +115,34 @@
         <Triggers>
           <Trigger Enabled="true" Name="gang" Id="df5f4b0c-3b6b-47fd-ae4d-6f18ad6f6f27" RegularExpression="GANG">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="it's a gangbang" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="it's a gangbang" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="HENTAI" Id="6ad8766f-12eb-45dc-ae78-46713d77d223" RegularExpression="HENTAI">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="i wanna read some hentai" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="i wanna read some hentai" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="false" Name="stronzo NOME-COGNOME" Id="71c7fe3d-01d0-46a1-b8b3-188cf3a3847d" RegularExpression="(?&lt;first&gt;\w+) (?&lt;last&gt;\w+) stronzo">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="$1$2 stronzo" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="$1$2 stronzo" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="Sephiroth!" Id="04ededf4-9f89-4515-acf9-ad1468a8066d" RegularExpression="Sephiroth!">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/Sephi.mp3" UseTTSTextExpression="Sephiroth" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/Sephi.mp3" PlaySoundVolumeExpression="50" UseTTSTextExpression="Sephiroth" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
                 <Condition Enabled="false" Grouping="Or" />
                 <Conditions />
               </Action>
@@ -139,96 +151,124 @@
           </Trigger>
           <Trigger Enabled="true" Name="uccidimi" Id="d02935fe-8f1c-4a90-8812-f98fb9131b81" RegularExpression="       ＜ 、･　 　|　    ＼">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="kill me!" UseTTSExclusive="False" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="kill me!" UseTTSVolumeExpression="50" UseTTSExclusive="False" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="CREDICI" Id="34080dd8-f16a-4bec-ad35-780c2c1b3efc" RegularExpression="CREDICI">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="devi crederci" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="devi crederci" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="false" Name="stronzo NOME" Id="afc4f2e7-3141-4d12-af32-1820fb508eee" RegularExpression="(?&lt;first&gt;\w+) stronzo">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="$1 stronzo" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="$1 stronzo" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="false" Name="stronzo" Id="9019ebb5-f837-4bb3-bd6e-dfc5c5c08838" RegularExpression="stronzo">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="stronzo" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+              <Action OrderNumber="1" UseTTSTextExpression="stronzo" UseTTSVolumeExpression="50" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="triste" Id="a46b5e0d-9cd6-4fcd-861b-ffbc87cb7ad0" RegularExpression="%%triste">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/MadWorld.mp3" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/MadWorld.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="0" ActionType="PlaySound" RefireInterrupt="True">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="porco demonio" Id="7e9f7b74-20ef-4c1d-96d4-d757d338f8dc" RegularExpression="porco demonio">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="porco demonio" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+              <Action OrderNumber="1" UseTTSTextExpression="porco demonio" UseTTSVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
             </Actions>
+            <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="mosconi" Id="2d2f80b0-aaa9-46c6-a985-66d0607f2b8d" RegularExpression="%%mosconi">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/mosconi.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/mosconi.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="porcodioh" Id="792196bb-c600-4b8b-8d51-c15b1b2a9355" RegularExpression="%%porcodio">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/porcodioh.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/porcodioh.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="pom" Id="99516f3a-f8d7-4d38-bf26-bd3c84c9ee97" RegularExpression="%%pomp">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/pomp.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/pomp.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="scora" Id="3525d737-a91d-45c8-aa96-cc8db64dc72e" RegularExpression="%%scora">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/scoreggia.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/scoreggia.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="cagato" Id="524abc02-4338-4445-9f7e-cd195a3d9b7f" RegularExpression="%%merda">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/cagato.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/cagato.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="uniporco" Id="1b021909-300a-4528-8b04-38613c1bf700" RegularExpression="%%uniporco">
             <Actions>
-              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/uniporco.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/uniporco.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="ShowMGO" Id="2161ad0f-1d5a-4d88-9749-18a419d6fe60" RegularExpression="%%go.on">
             <Actions>
-              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/showmust.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/showmust.mp3" PlaySoundVolumeExpression="50" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
           <Trigger Enabled="true" Name="flyyousweps" Id="5e2d241a-949a-472c-9203-f15fda04113c" RegularExpression=" ,  ">
             <Actions>
-              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/flyyoufools.mp3" UseTTSTextExpression="fly you fools" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/flyyoufools.mp3" PlaySoundVolumeExpression="50" UseTTSTextExpression="fly you fools" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
                 <Condition Enabled="false" Grouping="Or" />
                 <Conditions />
               </Action>
