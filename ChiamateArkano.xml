@@ -267,6 +267,16 @@
             <Condition Enabled="false" Grouping="Or" />
             <Conditions />
           </Trigger>
+          <Trigger Enabled="true" Name="bellaaaa" Id="4716d36b-6579-4407-b99c-5f3dd89e1066" RegularExpression="%%bella">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/bellaaaa.m4a" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="958375e3-249a-4c23-9cfa-787124062934" Name="98-Mappe" Enabled="true">
