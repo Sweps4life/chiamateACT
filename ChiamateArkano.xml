@@ -39,10 +39,11 @@
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
               </Trigger>
-              <Trigger Enabled="true" Name="Felix" Id="cafa5be7-9562-4c41-8de6-af18f8fb5c1f" RegularExpression="Fenris Highwind has logged in">
+              <Trigger Enabled="true" Name="Felix" Id="cafa5be7-9562-4c41-8de6-af18f8fb5c1f" RegularExpression="Ren Lukard has logged in">
                 <Actions>
-                  <Action OrderNumber="1" UseTTSTextExpression="Felix has logged" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                  <Action OrderNumber="1" UseTTSTextExpression="Ren has logged" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
@@ -296,9 +297,7 @@
           </Trigger>
           <Trigger Enabled="true" Name="usciti" Id="60fc21cd-ee86-4627-86af-ac76df117266" RegularExpression="(A trap is triggered! You are expelled from the canals!|You are devoured by an Atomos asipu and wake far from the altars.|You are expelled from the area!|You are devoured by a secret sweeper and wake far from the sanctum)">
             <Actions>
-              <Action OrderNumber="1" UseTTSTextExpression="fuck this game!!" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True">
-                <Conditions />
-              </Action>
+              <Action OrderNumber="1" UseTTSTextExpression="fuck this game!!" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
