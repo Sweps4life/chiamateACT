@@ -43,7 +43,6 @@
                 <Actions>
                   <Action OrderNumber="1" UseTTSTextExpression="Ren has logged" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
@@ -525,8 +524,12 @@
                   </Trigger>
                   <Trigger Enabled="true" Name="The shadow dragon readies Fireball." Id="c7b689e8-e75c-4759-a030-4e6353f6c1c4" RegularExpression="The shadow dragon readies Fireball.">
                     <Actions>
-                      <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\Audio\fireball1.wav" UseTTSTextExpression="fireball" TextAuraFontSize="0" ActionType="PlaySound" />
+                      <Action OrderNumber="1" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/fireball1.mp3" UseTTSTextExpression="fireball" TextAuraFontSize="0" ActionType="PlaySound">
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Action>
                     </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
                 </Triggers>
               </Folder>
