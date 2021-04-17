@@ -283,6 +283,16 @@
             <Condition Enabled="false" Grouping="Or" />
             <Conditions />
           </Trigger>
+          <Trigger Enabled="true" Name="fischio" Id="f7b747c1-aa63-410f-9c11-88d804ef7792" RegularExpression="%%fischio">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" PlaySoundFileExpression="https://github.com/Sweps4life/chiamateACT/raw/main/Audio/fischio.mp3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="958375e3-249a-4c23-9cfa-787124062934" Name="98-Mappe" Enabled="true">
