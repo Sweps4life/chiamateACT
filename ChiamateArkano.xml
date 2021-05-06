@@ -43,7 +43,6 @@
                 <Actions>
                   <Action OrderNumber="1" UseTTSTextExpression="Ren has logged" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
@@ -52,20 +51,17 @@
                 <Actions>
                   <Action OrderNumber="1" UseTTSTextExpression="Arkano has logged" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
               </Trigger>
-              <Trigger Enabled="true" Name="Ark" Id="27fcb410-4f9f-47a0-ae23-3d33f07eb878" RegularExpression="   =D|   =D">
+              <Trigger Enabled="true" Name="Ark" Id="27fcb410-4f9f-47a0-ae23-3d33f07eb878" RegularExpression="   =D|   =D|   =D">
                 <Actions>
                   <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" UseTTSTextExpression="oh no, Arkano è qui" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
