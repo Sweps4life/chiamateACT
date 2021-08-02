@@ -313,6 +313,14 @@
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
+          <Trigger Enabled="true" Name="Kal signal" Id="03855ebf-89bc-42d8-93a1-7a9628e23755" RegularExpression="Interdarius Kal'el casts Megaflare">
+            <Actions>
+              <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" UseTTSTextExpression="Kal Signal!" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="958375e3-249a-4c23-9cfa-787124062934" Name="98-Mappe" Enabled="true">
